@@ -1,6 +1,6 @@
 # test_math_operations.py
 import unittest
-from math_operations import add_numbers
+from src.program import add_numbers
 
 class TestMathOperations(unittest.TestCase):
     def test_add_numbers(self):
