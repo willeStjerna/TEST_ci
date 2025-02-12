@@ -1,5 +1,9 @@
 # test_math_operations.py
 import unittest
+
+# Add the project root directory to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.program import add_numbers
 
 class TestMathOperations(unittest.TestCase):
